@@ -34,8 +34,8 @@ function App() {
   };
 
   return (
-    <div className="w-full min-h-screen flex items-center justify-center">
-      <div className="w-1/4 h-1/2 shadow-custom p-5 rounded-xl min-w-[200px] xs:min-w-[260px] md:min-w-[340px] lg:min-w-[400px] xl:max-w-[460px]">
+    <div className="w-full h-screen flex items-center justify-center">
+      <div className="w-1/4 h-fit shadow-custom p-5 rounded-xl min-w-[200px] xs:min-w-[260px] md:min-w-[340px] lg:min-w-[400px] xl:max-w-[460px]">
         <div className="flex flex-col font-Montserrat xs:text-base text-sm w-full h-full gap-6">
           <Checkbox
             label="All Pages"
